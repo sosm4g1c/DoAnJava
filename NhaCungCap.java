@@ -13,11 +13,11 @@ import java.util.Objects;
 public class NhaCungCap {
     //Khai Bao
     private String ma_NhaCungCap;
-    private String diaChi;
+    private Address diaChi;
     private Sring ten_NhaCungCap;
     //Constructor
 
-    public NhaCungCap(String ma_NhaCungCap, String diaChi, Sring ten_NhaCungCap) {
+    public NhaCungCap(String ma_NhaCungCap, Address diaChi, Sring ten_NhaCungCap) {
         this.ma_NhaCungCap = ma_NhaCungCap;
         this.diaChi = diaChi;
         this.ten_NhaCungCap = ten_NhaCungCap;
@@ -32,11 +32,11 @@ public class NhaCungCap {
         this.ma_NhaCungCap = ma_NhaCungCap;
     }
 
-    public String getDiaChi() {
+    public Address getDiaChi() {
         return diaChi;
     }
 
-    public void setDiaChi(String diaChi) {
+    public void setDiaChi(Address diaChi) {
         this.diaChi = diaChi;
     }
 
